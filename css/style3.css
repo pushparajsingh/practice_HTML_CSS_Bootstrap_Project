@@ -1,0 +1,93 @@
+*{
+  scroll-behavior: smooth;
+}
+.img-thumbnail{
+width: 70%;
+}
+.bg{
+    background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#introduction{
+    width: 100%;
+    border: 2px solid red;
+}
+.bgs{
+    background: #EF3B36;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #EF3B36);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #EF3B36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.container1 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  /* margin-left: 40% */
+}
+
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  /* font-size: 20px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* text-align: center; */
+}
+
+/* img[alt="Avatar"]{
+margin-left: 40%
+
+} */
+img[class="img-rounded"]{
+  width: 50%;
+  height: 100%;
+  margin: 0px auto;
+  display: block;
+  margin: auto;
+}
+.bgcolor{
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.right-side{
+margin-left: 300px;
+}
+@media  screen and (min-width:300px) {
+  img[ alt="ram krishna param hance"]{
+    margin-left: 80px;
+  }
+  img[alt="Avatar"],.overlay{
+    width: 250px;
+    margin-left: 25%;
+  }
+}
+
